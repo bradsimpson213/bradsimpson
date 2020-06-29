@@ -1,27 +1,27 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Brad!',
+  siteTitle: 'Hi! I\'m Brad Simpson!',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Brad Simpson',
   // twitterUsername: '_franciscodf',
   githubUsername: 'bradsimpson213',
   authorAvatar: '/images/IMG_5567.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: `Aspiring software engineer with previous careers in the financial and property management/construction industries. <br/>
+  I have a passion for building, whether its a website, an app, or an addition on my house...  <br/> I take great pride in my work.
+  I live in Hawthorne, NJ (30 minutes outside of NYC) and enjoy spending my free time working on DIY projects or reading a good book in my hammock`,
+
   skills: [
     {
       name: 'Javascript',
-      level: 90
+      level: 95
     },
     {
       name: 'Python',
-      level: 60
+      level: 75
     },
     {
       name: 'React',
-      level: 75
+      level: 70
     },
     {
       name: 'HTML',
@@ -51,7 +51,7 @@ module.exports = {
         month: 'may',
         year: '2010'
       },
-      duration: '9 yrs e 9 mos',
+      duration: '9 yrs & 9 mos',
       occupation: "Regional Director of Construction, Asset Manger",
       description: "Directed a team of three construction professionals for various home improvement, rehab and maintenance projects in Northern New Jersey."
   
@@ -61,10 +61,20 @@ module.exports = {
         month: 'sept',
         year: '2004'
       },
-      duration: '5 yrs e 8 mos',
+      duration: '5 yrs & 8 mos',
       occupation: "Accounting Supervisor, Client Relationship Manager",
       description: "Managed all accounting and administrative resources for multiple Private Equity Fund clients while supervising a team of five staff and senior level accounting professionals."
   
+    }, {
+      company: "Ernst & Young LLP",
+      begin: {
+        month: 'jan',
+        year: '2001'
+      },
+      duration: '2 yrs & 9 mos',
+      occupation: "Accounting Intern, Center for Mobility Services",
+      description: "Reconcile and report on relocation expense accounts for the firm’s domestic employee transfers as well as facilitate payroll for expatriate employees."
+
     },
   ],
   portifolio: [
@@ -88,7 +98,7 @@ module.exports = {
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
+  siteCover: '/images/IMG_3641.JPG',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
