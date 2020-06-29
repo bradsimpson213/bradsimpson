@@ -5,99 +5,86 @@ module.exports = {
   authorName: 'Brad Simpson',
   // twitterUsername: '_franciscodf',
   githubUsername: 'bradsimpson213',
-  authorAvatar: '/images/IMG_5567avatar.jpeg',
+  authorAvatar: '/images/IMG_5567.jpeg',
   authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
     In 2012 I started working as a support technician and I approached the developers.
     In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
     I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
   skills: [
     {
-      name: 'HTML',
-      level: 70
-    },
-    {
-      name: 'CSS',
-      level: 60
-    },
-    {
       name: 'Javascript',
-      level: 50
+      level: 90
     },
     {
-      name: 'NodeJs',
-      level: 40
+      name: 'Python',
+      level: 60
     },
     {
       name: 'React',
+      level: 75
+    },
+    {
+      name: 'HTML',
       level: 60
     },
     {
-      name: 'Git',
-      level: 70
+      name: 'CSS',
+      level: 55
     },
     /* more skills here */
   ],
   jobs: [
     /* more jobs here */
     {
-      company: "Gympass",
+      company: "App Academy",
       begin: {
-        month: 'sep',
-        year: '2019'
+        month: 'feb',
+        year: '2020'
       },
       duration: null,
-      occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
+      occupation: "Student, Aspiring Software Engineer",
+      description: "Training to become a full stack software engineer."
   
     },  {
-      company: "Lendico",
+      company: "New Vistas Corporation",
       begin: {
-        month: 'apr',
-        year: '2018'
+        month: 'may',
+        year: '2010'
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
+      duration: '9 yrs e 9 mos',
+      occupation: "Regional Director of Construction, Asset Manger",
+      description: "Directed a team of three construction professionals for various home improvement, rehab and maintenance projects in Northern New Jersey."
   
-    }, {
-      company: "Anapro",
+    },  {
+      company: "Palmeri Fund Administrators",
       begin: {
-        month: 'dec',
-        year: '2016'
+        month: 'sept',
+        year: '2004'
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'set',
-        year: '2012'
-      },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      duration: '5 yrs e 8 mos',
+      occupation: "Accounting Supervisor, Client Relationship Manager",
+      description: "Managed all accounting and administrative resources for multiple Private Equity Fund clients while supervising a team of five staff and senior level accounting professionals."
   
     },
   ],
   portifolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: "/images/Rockinhood.png",
+      description: "Rockinhood - Clone of the Robinhood Investing Website",
+      url: "https://rockinhood.herokuapp.com/"
     },
-    {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
-    },
+    // {
+    //   image: "/images/awesome-grid.png",
+    //   description: "Responsive grid for ReactJS",
+    //   url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+    // },
     /* more portifolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    // twitter: "https://twitter.com/_franciscodf",
+    linkedin: "https://www.linkedin.com/in/brad-simpson-a6b1b7b2/",
+    github: "https://github.com/bradsimpson213",
+    email: "bradsimpson@icloud.com"
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
