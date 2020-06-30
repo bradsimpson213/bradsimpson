@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Brad Simpson!',
+  siteTitle: "Hi! I'm Brad Simpson!",
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Brad Simpson',
@@ -13,75 +13,77 @@ module.exports = {
   skills: [
     {
       name: 'Javascript',
-      level: 95
+      level: 95,
     },
     {
       name: 'Python',
-      level: 75
+      level: 75,
     },
     {
       name: 'React',
-      level: 70
+      level: 70,
     },
     {
       name: 'HTML',
-      level: 60
+      level: 60,
     },
     {
       name: 'CSS',
-      level: 55
+      level: 55,
     },
     /* more skills here */
   ],
   jobs: [
     /* more jobs here */
     {
-      company: "App Academy",
+      company: 'App Academy',
       begin: {
         month: 'feb',
-        year: '2020'
+        year: '2020',
       },
       duration: null,
-      occupation: "Student, Aspiring Software Engineer",
-      description: "Training to become a full stack software engineer."
-  
-    },  {
-      company: "New Vistas Corporation",
+      occupation: 'Student, Aspiring Software Engineer',
+      description: 'Training to become a full stack software engineer.',
+    },
+    {
+      company: 'New Vistas Corporation',
       begin: {
         month: 'may',
-        year: '2010'
+        year: '2010',
       },
       duration: '9 yrs & 9 mos',
-      occupation: "Regional Director of Construction, Asset Manger",
-      description: "Directed a team of three construction professionals for various home improvement, rehab and maintenance projects in Northern New Jersey."
-  
-    },  {
-      company: "Palmeri Fund Administrators",
+      occupation: 'Regional Director of Construction, Asset Manger',
+      description:
+        'Directed a team of three construction professionals for various home improvement, rehab and maintenance projects in Northern New Jersey.',
+    },
+    {
+      company: 'Palmeri Fund Administrators',
       begin: {
         month: 'sept',
-        year: '2004'
+        year: '2004',
       },
       duration: '5 yrs & 8 mos',
-      occupation: "Accounting Supervisor, Client Relationship Manager",
-      description: "Managed all accounting and administrative resources for multiple Private Equity Fund clients while supervising a team of five staff and senior level accounting professionals."
-  
-    }, {
-      company: "Ernst & Young LLP",
+      occupation: 'Accounting Supervisor, Client Relationship Manager',
+      description:
+        'Managed all accounting and administrative resources for multiple Private Equity Fund clients while supervising a team of five staff and senior level accounting professionals.',
+    },
+    {
+      company: 'Ernst & Young LLP',
       begin: {
         month: 'jan',
-        year: '2001'
+        year: '2001',
       },
       duration: '2 yrs & 9 mos',
-      occupation: "Accounting Intern, Center for Mobility Services",
-      description: "Reconcile and report on relocation expense accounts for the firm’s domestic employee transfers as well as facilitate payroll for expatriate employees."
-
+      occupation: 'Accounting Intern, Center for Mobility Services',
+      description:
+        'Reconcile and report on relocation expense accounts for the firm’s domestic employee transfers as well as facilitate payroll for expatriate employees.',
     },
   ],
   portifolio: [
     {
-      image: "/images/Rockinhood.png",
-      description: "Rockinhood - Clone of the Robinhood Investing Website",
-      url: "https://rockinhood.herokuapp.com/"
+      image: '/images/Rockinhood.png',
+      description: 'Rockinhood - Clone of the Robinhood Investing Website',
+      url: 'https://rockinhood.herokuapp.com/',
     },
     // {
     //   image: "/images/awesome-grid.png",
@@ -92,17 +94,17 @@ module.exports = {
   ],
   social: {
     // twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/brad-simpson-a6b1b7b2/",
-    github: "https://github.com/bradsimpson213",
-    email: "bradsimpson@icloud.com"
+    linkedin: 'https://www.linkedin.com/in/brad-simpson-a6b1b7b2/',
+    github: 'https://github.com/bradsimpson213',
+    email: 'bradsimpson@icloud.com',
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+  siteUrl: ' https://bradsimpson213.github.io/bradsimpson',
   pathPrefix: '/bradsimpson', // Note: it must *not* have a trailing slash.
   siteCover: '/images/IMG_3641.JPG',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
-  fontColor: "#000000cc",
+  fontColor: '#000000cc',
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
   icon: 'src/assets/gatsby-icon.png',
@@ -114,6 +116,11 @@ module.exports = {
     {
       label: 'Portifolio',
       url: '/portifolio',
-    }
-  ]
+    },
+    {
+      label: 'Resume',
+      url:
+        'https://docs.google.com/document/d/e/2PACX-1vTMfL4Vkb8OxkFugRcOqJkWJnu_-_QA2AjxIX7sm1AAQfCpr9own76W1cxpdu9eHOvCi_sL-xcgSPhD/pub',
+    },
+  ],
 }
