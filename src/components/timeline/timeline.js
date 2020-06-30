@@ -86,11 +86,11 @@ export default styled(Timeline)`
     padding-top: 4px;
   }
   .timeline__year {
-    font-size: 10px;
+    font-size: 12px;
   }
   .timeline__card {
-    border-radius: 6px;
-    border: 1px solid ${({ theme }) => theme.colors.primary};
+    border-radius: 12px;
+    border: 2px solid ${({ theme }) => theme.colors.primary};
     transform: translate(-50%);
   }
   .timeline__card-title {
@@ -99,7 +99,7 @@ export default styled(Timeline)`
     color: #fff;
     font-size: 20px;
     text-transform: uppercase;
-    border-radius: 3px 3px 0 0;
+    border-radius: 12px 12px 0 0;
     position: relative;
   }
   .timeline__card-title:after {
@@ -117,7 +117,7 @@ export default styled(Timeline)`
     font-size: 14px;
     background: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.fontColor};
-    border-radius: 0 0 6px 6px;
+    border-radius: 0 0 12px 12px;
   }
   .timeline__item:nth-child(2n+2) div.inner {
     float: right;
@@ -133,7 +133,8 @@ export default styled(Timeline)`
   }
 
   .timeline__card-title--small {
-    font-size: 10px;
+    font-size: 16px;
+    font-style: italic; 
   }
 
   .timeline__item.is-visible div.inner {
