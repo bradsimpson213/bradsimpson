@@ -5,7 +5,7 @@ module.exports = {
   authorName: 'Brad Simpson',
   // twitterUsername: '_franciscodf',
   githubUsername: 'bradsimpson213',
-  authorAvatar: '/images/IMG_5567.jpeg',
+  authorAvatar: '/images/myheadshot.jpg',
   authorDescription: `Aspiring software engineer with previous careers in the financial and property management/construction industries. <br/>
   I have a passion for building, whether its a website, an app, or an addition on my house...  <br/> I take great pride in my work.
   I live in Hawthorne, NJ (30 minutes outside of NYC) and enjoy spending my free time working on DIY projects or reading a good book in my hammock`,
@@ -98,9 +98,9 @@ module.exports = {
     github: 'https://github.com/bradsimpson213',
     email: 'bradsimpson@icloud.com',
   },
-  siteUrl: 'https://bradsimpson213.github.io/bradsimpson/',
+  siteUrl: 'https://bradsimpson213.github.io/',
   pathPrefix: '/bradsimpson', // Note: it must *not* have a trailing slash.
-  siteCover: 'bradsimpson/images/waves.jpg',
+  siteCover: '/images/waves.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
