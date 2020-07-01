@@ -98,7 +98,7 @@ module.exports = {
     github: 'https://github.com/bradsimpson213',
     email: 'bradsimpson@icloud.com',
   },
-  siteUrl: 'https://bradsimpson213.github.io/',
+  siteUrl: 'https://bradsimpson213.github.io/bradsimpson/',
   pathPrefix: '/bradsimpson', // Note: it must *not* have a trailing slash.
   siteCover: '/images/waves.jpg',
   googleAnalyticsId: 'UA-000000000-1',
