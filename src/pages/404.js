@@ -27,7 +27,7 @@ const NotFoundPage = ({ location }) => (
   <Layout location={location} noCover={true}>
     <SEO title="Page Not Found" />
     <Hero
-      heroImg={withPrefix('/images/404.jpeg')}
+      heroImg={withPrefix('/images/404.jpg')}
       title='404'
     />
     <Wrapper>

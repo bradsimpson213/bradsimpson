@@ -100,7 +100,7 @@ module.exports = {
   },
   siteUrl: 'https://bradsimpson213.github.io/bradsimpson/',
   pathPrefix: '/bradsimpson', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/waves.jpeg',
+  siteCover: '/images/waves.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
