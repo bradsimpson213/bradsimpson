@@ -79,7 +79,7 @@ module.exports = {
         'Reconcile and report on relocation expense accounts for the firm’s domestic employee transfers as well as facilitate payroll for expatriate employees.',
     },
   ],
-  portifolio: [
+  portfolio: [
     {
       image: '/images/Rockinhood.png',
       description: 'Rockinhood - Clone of the Robinhood Investing Website',
@@ -114,8 +114,8 @@ module.exports = {
       url: '/',
     },
     {
-      label: 'Portifolio',
-      url: '/portifolio',
+      label: 'Portfolio',
+      url: '/portfolio',
     },
     {
       label: 'Resume',
