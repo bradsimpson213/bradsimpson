@@ -34,11 +34,12 @@ const Hero = ({ className, title }) => (
 )
 
 export default styled(Hero)`
-  ${p =>
-    `background-image: url(${p.heroImg || siteConfig.siteCover});`}
   ${'' /* ${p =>
+    `background-image: url(${p.heroImg || siteConfig.siteCover});`} */}
+  ${p =>
     `background-image: url(${p.heroImg ||
-      withPrefix(siteConfig.siteCover)});`} */}
+      withPrefix(siteConfig.siteCover)});`}
+  ${'' /* background-image: "https://brad-simpson-website.s3.amazonaws.com/waves.jpg"; */}
   height: 70vh;
   height: 70vh;
   background-attachment: fixed;

@@ -32,7 +32,7 @@ const JobCard = styled.a`
 `
 
 const Portfolio = ({ className, location }) => {
-  const title = "Portfolio"
+  const title = "My Portfolio"
   const { keywords, portfolio } = siteConfig
   return (
     <Layout location={location}>
@@ -42,7 +42,7 @@ const Portfolio = ({ className, location }) => {
       />
 
       <Hero
-        heroImg={withPrefix('/images/darksky.jpg')}
+        heroImg={withPrefix('images/darksky.jpg')}
         title={title}
       />
 

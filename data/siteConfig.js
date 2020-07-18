@@ -5,7 +5,7 @@ module.exports = {
   authorName: 'Brad Simpson',
   // twitterUsername: '_franciscodf',
   githubUsername: 'bradsimpson213',
-  authorAvatar: '/images/myheadshot.jpg',
+  authorAvatar: 'https://brad-simpson-website.s3.amazonaws.com/myheadshot.jpg',
   authorDescription: `Aspiring software engineer with previous careers in the financial and property management/construction industries. <br/>
   I have a passion for building, whether its a website, an app, or an addition on my house...  <br/> I take great pride in my work.
   I live in Hawthorne, NJ (30 minutes outside of NYC) and enjoy spending my free time working on DIY projects or reading a good book in my hammock`,
@@ -81,15 +81,15 @@ module.exports = {
   ],
   portfolio: [
     {
-      image: '/images/Rockinhood.png',
+      image: "https://brad-simpson-website.s3.amazonaws.com/StarTrader.png",
+      description: "StarTrader, the best starship trading app in the whole galaxy!",
+      url: "https://github.com/bradsimpson213/star_trader_server.git"
+    },
+    {
+      image: 'https://brad-simpson-website.s3.amazonaws.com/Rockinhood.png',
       description: 'Rockinhood - Clone of the Robinhood Investing Website',
       url: 'https://rockinhood.herokuapp.com/',
     },
-    // {
-    //   image: "/images/awesome-grid.png",
-    //   description: "Responsive grid for ReactJS",
-    //   url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
-    // },
     /* more portifolio items here */
   ],
   social: {
@@ -99,7 +99,7 @@ module.exports = {
     email: 'bradsimpson@icloud.com',
   },
   siteUrl: 'https://bradsimpson213.github.io/bradsimpson/',
-  pathPrefix: '/bradsimpson', // Note: it must *not* have a trailing slash.
+  pathPrefix: '', // Note: it must *not* have a trailing slash.
   siteCover: '/images/waves.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
