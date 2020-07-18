@@ -3,7 +3,7 @@
   "private": true,
   "description": "A simple starter to get up and developing your digital curriculum with GatsbyJS",
   "version": "0.0.1",
-  "author": "Francisco Santos <yoshi.df@gmail.com>",
+  "author": "Brad Simpson",
   "dependencies": {
     "@loadable/component": "5.12.0",
     "babel-plugin-styled-components": "1.10.6",
