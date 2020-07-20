@@ -1,9 +1,8 @@
 module.exports = {
   siteTitle: "Hi! I'm Brad Simpson!",
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
+  siteDescription: `My personal website to show off resume and projects`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Brad Simpson',
-  // twitterUsername: '_franciscodf',
   githubUsername: 'bradsimpson213',
   authorAvatar: 'https://brad-simpson-website.s3.amazonaws.com/myheadshot.jpg',
   authorDescription: `Aspiring software engineer with previous careers in the financial and property management/construction industries. <br/>
@@ -17,7 +16,7 @@ module.exports = {
     },
     {
       name: 'Python',
-      level: 75,
+      level: 85,
     },
     {
       name: 'React',
@@ -38,20 +37,20 @@ module.exports = {
     {
       company: 'App Academy',
       begin: {
-        month: 'feb',
+        month: 'Feb',
         year: '2020',
       },
-      duration: null,
+      duration: '6 months',
       occupation: 'Student, Aspiring Software Engineer',
       description: 'Training to become a full stack software engineer.',
     },
     {
       company: 'New Vistas Corporation',
       begin: {
-        month: 'may',
+        month: 'May',
         year: '2010',
       },
-      duration: '9 yrs & 9 mos',
+      duration: '9 years & 9 months',
       occupation: 'Regional Director of Construction, Asset Manger',
       description:
         'Directed a team of three construction professionals for various home improvement, rehab and maintenance projects in Northern New Jersey.',
@@ -59,10 +58,10 @@ module.exports = {
     {
       company: 'Palmeri Fund Administrators',
       begin: {
-        month: 'sept',
+        month: 'Sept',
         year: '2004',
       },
-      duration: '5 yrs & 8 mos',
+      duration: '5 years & 8 months',
       occupation: 'Accounting Supervisor, Client Relationship Manager',
       description:
         'Managed all accounting and administrative resources for multiple Private Equity Fund clients while supervising a team of five staff and senior level accounting professionals.',
@@ -70,10 +69,10 @@ module.exports = {
     {
       company: 'Ernst & Young LLP',
       begin: {
-        month: 'jan',
+        month: 'Jan',
         year: '2001',
       },
-      duration: '2 yrs & 9 mos',
+      duration: '2 years & 9 monthss',
       occupation: 'Accounting Intern, Center for Mobility Services',
       description:
         'Reconcile and report on relocation expense accounts for the firm’s domestic employee transfers as well as facilitate payroll for expatriate employees.',
