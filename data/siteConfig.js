@@ -82,11 +82,13 @@ module.exports = {
     {
       image: "https://brad-simpson-website.s3.amazonaws.com/StarTrader.png",
       description: "StarTrader, the best starship trading app in the whole galaxy!",
+      tech: "Created with Python/Flask Server and React Client",
       url: "https://github.com/bradsimpson213/star_trader_server.git"
     },
     {
       image: 'https://brad-simpson-website.s3.amazonaws.com/Rockinhood.png',
-      description: 'Rockinhood - Clone of the Robinhood Investing Website',
+      description: "Rockinhood - Clone of the Robinhood Investing Website.",
+      tech:  "Created with an Express Server and PUG Client",
       url: 'https://rockinhood.herokuapp.com/',
     },
     /* more portifolio items here */
@@ -98,7 +100,7 @@ module.exports = {
     email: 'bradsimpson@icloud.com',
   },
   siteUrl: 'https://bradsimpson213.github.io/bradsimpson/',
-  pathPrefix: '/bradsimpson', // Note: it must *not* have a trailing slash.
+  pathPrefix: '', // Note: it must *not* have a trailing slash.
   siteCover: '/images/waves.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',

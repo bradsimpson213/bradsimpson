@@ -11,8 +11,8 @@ import Wrapper from '../components/wrapper'
 const Layout = loadable(() => import('../components/layout'))
 
 const Image = styled.img`
-  max-height: 220px;
-  max-width: 220px;
+  max-height: 320px;
+  max-width: 320px;
   object-fit: cover;
   object-position: center center;
   border-radius: 10px;
@@ -36,31 +36,23 @@ const Portfolio = ({ className, location }) => {
   const { keywords, portfolio } = siteConfig
   return (
     <Layout location={location}>
-      <SEO
-        title={title}
-        keywords={keywords}
-      />
+      <SEO title={title} keywords={keywords} />
 
-      <Hero
-        heroImg={withPrefix('images/darksky.jpg')}
-        title={title}
-      />
+      <Hero heroImg={withPrefix('images/darksky.jpg')} title={title} />
 
       <Wrapper className={className}>
         <Container className="page-content" fluid>
           <Row>
             {portfolio.map(job => (
-              <Col
-                key={job.description}
-                align="center"
-              >
+              <Col key={job.description} align="center">
                 <JobCard
-                  as={job.url ? "a" : "div"}
+                  as={job.url ? 'a' : 'div'}
                   href={job.url}
                   target="_blank"
                 >
                   <Image src={withPrefix(job.image)} />
                   <p>{job.description}</p>
+                  <p>{job.tech}</p>
                 </JobCard>
               </Col>
             ))}
