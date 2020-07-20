@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-cv",
   "private": true,
-  "description": "A simple starter to get up and developing your digital curriculum with GatsbyJS",
+  "description": "My website",
   "version": "0.0.1",
   "author": "Brad Simpson",
   "dependencies": {
@@ -46,9 +46,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/santosfrancisco/gatsby-starter-cv"
+    "url": "https://github.com/bradsimpson213/bradsimpson"
   },
   "bugs": {
-    "url": "https://github.com/santosfrancisco/gatsby-starter-cv/issues"
+    "url": "https://github.com/bradsimpson213/bradsimpson"
   }
 }
