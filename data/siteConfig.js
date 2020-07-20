@@ -100,15 +100,14 @@ module.exports = {
     email: 'bradsimpson@icloud.com',
   },
   siteUrl: 'https://bradsimpson213.github.io/bradsimpson/',
-  pathPrefix: '', // Note: it must *not* have a trailing slash.
+  // pathPrefix: '/bradsimpson213', // Note: it must *not* have a trailing slash.
   siteCover: '/images/waves.jpg',
-  googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
   fontColor: '#000000cc',
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
-  icon: '',
+  icon: './src/assets/gatsby-icon.png',
   headerLinks: [
     {
       label: 'Home',
