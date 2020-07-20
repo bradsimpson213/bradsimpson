@@ -50,10 +50,10 @@ module.exports = {
         month: 'May',
         year: '2010',
       },
-      duration: '9 years & 9 months',
+      duration: '10 years',
       occupation: 'Regional Director of Construction, Asset Manger',
       description:
-        'Directed a team of three construction professionals for various home improvement, rehab and maintenance projects in Northern New Jersey.',
+        'Directed a team of three construction professionals for various home improvement, rehab and maintenance projects in Northern New Jersey.  All managed all operations of several properties, including maintenance, rent collectiom bill paying and financial reporting.',
     },
     {
       company: 'Palmeri Fund Administrators',
@@ -72,7 +72,7 @@ module.exports = {
         month: 'Jan',
         year: '2001',
       },
-      duration: '2 years & 9 monthss',
+      duration: '2 years & 9 months',
       occupation: 'Accounting Intern, Center for Mobility Services',
       description:
         'Reconcile and report on relocation expense accounts for the firm’s domestic employee transfers as well as facilitate payroll for expatriate employees.',
