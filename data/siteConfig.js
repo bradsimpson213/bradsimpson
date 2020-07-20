@@ -53,7 +53,7 @@ module.exports = {
       duration: '10 years',
       occupation: 'Regional Director of Construction, Asset Manger',
       description:
-        'Directed a team of three construction professionals for various home improvement, rehab and maintenance projects in Northern New Jersey.  All managed all operations of several properties, including maintenance, rent collectiom bill paying and financial reporting.',
+        'Directed a team of three construction professionals for various home improvement, rehab and maintenance projects in Northern New Jersey.  Also managed all operations of several properties, including maintenance, rent collection, bill paying, and financial reporting.',
     },
     {
       company: 'Palmeri Fund Administrators',
