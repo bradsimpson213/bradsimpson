@@ -5,30 +5,30 @@ module.exports = {
   authorName: 'Brad Simpson',
   githubUsername: 'bradsimpson213',
   authorAvatar: 'https://brad-simpson-website.s3.amazonaws.com/myheadshot.jpg',
-  authorDescription: `Aspiring software engineer with previous careers in the financial and property management/construction industries. <br/>
+  authorDescription: `I am a software engineer with previous careers in the financial and property management/construction industries. <br/>
   I have a passion for building, whether its a website, an app, or an addition on my house...  <br/> I take great pride in my work.
-  I live in Hawthorne, NJ (30 minutes outside of NYC) and enjoy spending my free time working on DIY projects or reading a good book in my hammock`,
+  I live in Hawthorne, NJ (30 minutes outside of NYC) and enjoy spending my free time working on DIY projects, gardening, hiking and camping with my family, or reading a good book in my hammock.`,
 
   skills: [
     {
-      name: 'Javascript',
-      level: 85,
+      name: 'JavaScript',
+      level: 97,
     },
     {
       name: 'Python',
-      level: 90,
+      level: 94,
     },
     {
       name: 'React',
-      level: 75,
+      level: 87,
     },
     {
       name: 'HTML',
-      level: 70,
+      level: 85,
     },
     {
       name: 'CSS',
-      level: 65,
+      level: 80,
     },
     /* more skills here */
   ],
@@ -41,8 +41,8 @@ module.exports = {
         year: '2020',
       },
       duration: '6 months',
-      occupation: 'Student, Aspiring Software Engineer',
-      description: 'Training to become a full stack software engineer.',
+      occupation: 'Student, Software Engineer',
+      description: 'Sharpening my skills as a full stack software engineer.',
     },
     {
       company: 'New Vistas Corporation',
@@ -53,7 +53,7 @@ module.exports = {
       duration: '10 years',
       occupation: 'Regional Director of Construction, Asset Manger',
       description:
-        'Directed a team of three construction professionals for various home improvement, rehab and maintenance projects in Northern New Jersey.  Also managed all operations of several properties, including maintenance, rent collection, bill paying, and financial reporting.',
+        'Directed a team of four construction professionals for various home improvement, rehab and maintenance projects in Northern New Jersey.  Also managed all operations of several properties, including maintenance, rent collection, bill paying, and financial reporting.',
     },
     {
       company: 'Palmeri Fund Administrators',
@@ -77,18 +77,35 @@ module.exports = {
       description:
         'Reconcile and report on relocation expense accounts for the firm’s domestic employee transfers as well as facilitate payroll for expatriate employees.',
     },
+    {
+      company: 'Ramapo College of NJ',
+      begin: {
+        month: 'Sept',
+        year: '1999',
+      },
+      duration: '4 years',
+      occupation: 'Bachelors of Science in Accounting',
+      description:
+        'I learned how to count, really well.  I also took several business courses in finance, marketing, economics, and management.',
+    },
   ],
   portfolio: [
     {
       image: "https://brad-simpson-website.s3.amazonaws.com/StarTrader.png",
       description: "StarTrader, the best starship trading app in the whole galaxy!",
       tech: "Created with Python/Flask Server and React Client",
-      url: "https://github.com/bradsimpson213/star_trader_server.git"
+      url: "https://startrader-app.herokuapp.com/"
+    },
+    {
+      image: "https://brad-simpson-website.s3.amazonaws.com/Screen+Shot+2020-07-20+at+1.50.34+PM.png",
+      description: "Mello, the Zen inspired Kanban board inspired by Trello with drag and drop functionality!",
+      tech: "Created with Python/Flask Server, React Client, and React Beautiful DND",
+      url: "https://mello-app1.herokuapp.com"
     },
     {
       image: 'https://brad-simpson-website.s3.amazonaws.com/Rockinhood.png',
-      description: "Rockinhood - Clone of the Robinhood Investing Website.",
-      tech:  "Created with an Express Server and PUG Client",
+      description: "Rockinhood - A Stock / Portfolio Investing application inspired by RobinHood.",
+      tech:  "Created with an Express Server and PUG Templating",
       url: 'https://rockinhood.herokuapp.com/',
     },
     /* more portifolio items here */
