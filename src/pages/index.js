@@ -20,6 +20,7 @@ const Separator = styled.hr`
   margin-top: 24px;
   margin-bottom: 16px;
   background-color: ${({ theme }) => theme.colors.fontColor};
+  
   opacity: .2;
 `
 
@@ -32,7 +33,7 @@ const Home = ({ className, location }) => {
   const title = siteConfig.siteTitle
   const { keywords } = siteConfig
   return (
-    <Layout location={location}>
+    <Layout location={location} >
       <SEO
         title={title}
         keywords={keywords}

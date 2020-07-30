@@ -45,7 +45,9 @@ export default styled(Footer)`
   align-items: center;
   max-width: calc(960px + 48px);
   margin: 0 auto;
-  padding: 0 24px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 35px 35px 0px 0px;
   background: ${({ theme }) => theme.colors.background};
 
   ${props => config(props).media.sm`
