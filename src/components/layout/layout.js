@@ -15,7 +15,7 @@ const variants = {
 
 const StyledContainer = styled.div`
   ${'' /* background: ${({ theme }) => theme.colors.background}; */}
-  background-color: gray;
+  background-color: #404040;
   overflow-x: hidden;
 `
 

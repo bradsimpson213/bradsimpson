@@ -38,7 +38,7 @@ const Portfolio = ({ className, location }) => {
     <Layout location={location}>
       <SEO title={title} keywords={keywords} />
 
-      <Hero heroImg={withPrefix('images/darksky.jpg')} title={title} />
+      <Hero heroImg={withPrefix('https://brad-simpson-website.s3.amazonaws.com/lightning_bolts_needles_1024.jpg')} title={title} />
 
       <Wrapper className={className}>
         <Container className="page-content" fluid>

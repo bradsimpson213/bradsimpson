@@ -48,6 +48,7 @@ export default styled(Footer)`
   padding-left: 35px;
   padding-right: 35px;
   border-radius: 35px 35px 0px 0px;
+  box-shadow: 0 0 0 0, 0 6px 12px rgba(128, 128, 128, 0.6);
   background: ${({ theme }) => theme.colors.background};
 
   ${props => config(props).media.sm`
