@@ -97,7 +97,7 @@ module.exports = {
       url: "https://startrader-app.herokuapp.com/"
     },
     {
-      image: "https://brad-simpson-website.s3.amazonaws.com/Mello-videodemo.gif",
+      image: "https://brad-simpson-website.s3.amazonaws.com/Mello-video.gif",
       description: "Mello, the Zen inspired Kanban board inspired by Trello with drag and drop functionality!",
       tech: "Created with Python/Flask Server, React Client, and React Beautiful DND",
       url: "https://mello-app1.herokuapp.com"
