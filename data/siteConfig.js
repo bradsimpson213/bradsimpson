@@ -15,19 +15,19 @@ module.exports = {
       level: 97,
     },
     {
-      name: 'Python',
+      name: 'Python / Flask',
       level: 94,
     },
     {
       name: 'React',
-      level: 87,
+      level: 89,
     },
     {
-      name: 'HTML',
+      name: 'HTML5',
       level: 85,
     },
     {
-      name: 'CSS',
+      name: 'CSS3',
       level: 80,
     },
     /* more skills here */

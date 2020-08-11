@@ -51,8 +51,8 @@ const Portfolio = ({ className, location }) => {
                   href={job.url}
                   target="_blank"
                 >
-                  <Image src={withPrefix(job.image)} />
                   <p>{job.description}</p>
+                  <Image src={withPrefix(job.image)} />
                   <p style={{"font-style": "italic"}}>{job.tech}</p>
                 </JobCard>
               </Col>

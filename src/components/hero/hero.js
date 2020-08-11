@@ -19,10 +19,14 @@ const TitleContainer = styled.div`
 
 const HeroTitle = styled.h1`
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 4rem;
   margin: 10px 60px;
   color: #fff;
-  text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.6);
+  ${'' /* text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.6); */}
+  text-shadow: -2px 2px 0 #000,
+				  2px 2px 0 #000,
+				 2px -2px 0 #000,
+				-2px -2px 0 #000;
 `
 
 const Hero = ({ className, title }) => (
