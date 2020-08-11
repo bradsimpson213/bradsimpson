@@ -92,13 +92,13 @@ module.exports = {
   portfolio: [
     {
       image: "https://ben.perlmutter.io/assets/img/star-trader-demo-full.gif",
-      description: "StarTrader, the best starship trading app in the whole galaxy!",
+      description: "StarTrader - The best starship trading app in the whole galaxy!",
       tech: "Created with Python/Flask Server and React Client",
       url: "https://startrader-app.herokuapp.com/"
     },
     {
       image: "https://brad-simpson-website.s3.amazonaws.com/Mello-video.gif",
-      description: "Mello, the Zen inspired Kanban board inspired by Trello with drag and drop functionality!",
+      description: "Mello - A Zen themed Kanban board inspired by Trello with drag and drop functionality!",
       tech: "Created with Python/Flask Server, React Client, and React Beautiful DND",
       url: "https://mello-app1.herokuapp.com"
     },

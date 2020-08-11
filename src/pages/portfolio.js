@@ -14,7 +14,7 @@ const Image = styled.img`
   max-height: 320px;
   max-width: 320px;
   object-fit: cover;
-  object-position: center center;
+  ${'' /* object-position: center center; */}
   border-radius: 10px;
   box-shadow: 24px 47px 79px -21px rgba(0,0,0,0.51);
 `
@@ -22,6 +22,7 @@ const Image = styled.img`
 const JobCard = styled.a`
   text-decoration: none;
   color: inherit;
+  margin: 20px;
 
   ${({ href }) => href && css`
     &:hover ${Image}{
@@ -44,7 +45,7 @@ const Portfolio = ({ className, location }) => {
         <Container className="page-content" fluid>
           <Row>
             {portfolio.map(job => (
-              <Col key={job.description} align="center">
+              <Col key={job.description} align="left">
                 <JobCard
                   as={job.url ? 'a' : 'div'}
                   href={job.url}
@@ -52,7 +53,7 @@ const Portfolio = ({ className, location }) => {
                 >
                   <Image src={withPrefix(job.image)} />
                   <p>{job.description}</p>
-                  <p>{job.tech}</p>
+                  <p style={{"font-style": "italic"}}>{job.tech}</p>
                 </JobCard>
               </Col>
             ))}
