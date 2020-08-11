@@ -124,7 +124,7 @@ module.exports = {
   fontColor: '#000000cc',
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
-  icon: './src/assets/gatsby-icon.png',
+  icon: './src/assets/BS-16x16.png',
   headerLinks: [
     {
       label: 'Home',
