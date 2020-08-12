@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
-import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaAngellist, FaEnvelope } from "react-icons/fa"
 import siteConfig from '../../data/siteConfig'
 import { withPrefix } from "gatsby"
 import loadable from '@loadable/component'
@@ -60,8 +60,8 @@ const Home = ({ className, location }) => {
                 {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin}>
                   <FaLinkedin className="social-icon" size="32" />
                 </a>}
-                {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter}>
-                  <FaTwitter className="social-icon" size="32" />
+                {siteConfig.social.angel && <a className="social-link angellist" href={siteConfig.social.angel}>
+                  <FaAngellist className="social-icon" size="32" />
                 </a>}
                 {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>
                   <FaEnvelope className="social-icon" size="32" />
@@ -116,7 +116,7 @@ export default styled(Home)`
     color: #555;
   }
 
-  a.social-link.twitter:hover {
+  a.social-link.angellist:hover {
     color: #1da1f2;
   }
 

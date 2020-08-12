@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa"
+import { FaGithub, FaAngellist, FaLinkedin, FaEnvelope } from "react-icons/fa"
 import { config } from 'react-awesome-styled-grid';
 import siteConfig from '../../../data/siteConfig'
 
@@ -21,17 +21,19 @@ const Link = styled(({ className, icon: Icon, color, ...props }) => (
 
 const Footer = ({ className }) => {
   const {
-    twitter,
+    angel,
     linkedin,
     github,
+    email,
   } = siteConfig.social
   return (
     <footer className={className}>
       {`© ${new Date().getFullYear()} ${siteConfig.authorName}`}
       <div>
         {github && <Link href={github} icon={FaGithub} />}
-        {twitter && <Link href={twitter} icon={FaTwitter} />}
         {linkedin && <Link href={linkedin} icon={FaLinkedin} />}
+        {angel && <Link href={angel} icon={FaAngellist} />}
+        {email && <Link href={`mailto:${email}`} icon={FaEnvelope} />}
       </div>
     </footer>
   )

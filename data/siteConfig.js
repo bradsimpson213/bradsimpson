@@ -12,22 +12,27 @@ module.exports = {
   skills: [
     {
       name: 'JavaScript',
+      icon: 'JavaScript',
       level: 97,
     },
     {
       name: 'Python / Flask',
+      icon: 'Python',
       level: 94,
     },
     {
       name: 'React',
+      icon: 'React',
       level: 89,
     },
     {
       name: 'HTML5',
+      icon: 'HTML5',
       level: 85,
     },
     {
       name: 'CSS3',
+      icon: 'CSS3',
       level: 80,
     },
     /* more skills here */
@@ -93,13 +98,13 @@ module.exports = {
     {
       image: "https://ben.perlmutter.io/assets/img/star-trader-demo-full.gif",
       description: "StarTrader - The best starship trading app in the whole galaxy!",
-      tech: "Created with Python/Flask Server and React Client",
+      tech: "Created with Python / Flask Server and React Client",
       url: "https://startrader-app.herokuapp.com/"
     },
     {
       image: "https://brad-simpson-website.s3.amazonaws.com/Mello-video.gif",
       description: "Mello - A Zen themed Kanban board inspired by Trello with drag and drop functionality!",
-      tech: "Created with Python/Flask Server, React Client, and React Beautiful DND",
+      tech: "Created with Python / Flask Server, React Client (with Hooks), and React Beautiful DND",
       url: "https://mello-app1.herokuapp.com"
     },
     {
@@ -111,12 +116,12 @@ module.exports = {
     /* more portifolio items here */
   ],
   social: {
-    // twitter: "https://twitter.com/_franciscodf",
+    angel: "https://angel.co/u/brad-simpson-8",
     linkedin: 'https://www.linkedin.com/in/brad-simpson-a6b1b7b2/',
     github: 'https://github.com/bradsimpson213',
     email: 'bradsimpson@icloud.com',
   },
-  siteUrl: 'https://bradsimpson213.github.io/bradsimpson/',
+  siteUrl: 'https://brad-simpson-website.herokuapp.com/',
   // pathPrefix: '/bradsimpson213', // Note: it must *not* have a trailing slash.
   siteCover: '/images/waves.jpg',
   background_color: '#ffffff',
@@ -137,7 +142,7 @@ module.exports = {
     {
       label: 'Resume',
       url:
-        'https://docs.google.com/document/d/e/2PACX-1vTMfL4Vkb8OxkFugRcOqJkWJnu_-_QA2AjxIX7sm1AAQfCpr9own76W1cxpdu9eHOvCi_sL-xcgSPhD/pub',
+        'https://docs.google.com/document/d/1SdwDGH71NDvTywBrMY0WY9kEAzaZxpl7PHQt_RXj3sg/export?format=pdf',
     },
   ],
 }
