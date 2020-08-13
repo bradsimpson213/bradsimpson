@@ -23,10 +23,10 @@ const HeroTitle = styled.h1`
   margin: 10px 60px;
   color: #fff;
   ${'' /* text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.6); */}
-  text-shadow: -2px 2px 0 #000,
-				  2px 2px 0 #000,
-				 2px -2px 0 #000,
-				-2px -2px 0 #000;
+  text-shadow: -3px 3px 0 #000,
+				  3px 3px 0 #000,
+				 3px -3px 0 #000,
+				-3px -3px 0 #000;
 `
 
 const Hero = ({ className, title }) => (

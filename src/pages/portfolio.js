@@ -32,6 +32,15 @@ const JobCard = styled.a`
   `}
 `
 
+const Title = styled.p`
+  font-size: 32px;
+  font-weight: bold;
+  text-shadow: -1px 1px 0 #4169E1,
+				  1px 1px 0 #4169E1,
+				 1px -1px 0 #4169E1,
+				-1px -1px 0 #4169E1;
+`
+
 const Portfolio = ({ className, location }) => {
   const title = "My Portfolio"
   const { keywords, portfolio } = siteConfig
@@ -51,6 +60,7 @@ const Portfolio = ({ className, location }) => {
                   href={job.url}
                   target="_blank"
                 >
+                  <Title>{job.title}</Title>
                   <p>{job.description}</p>
                   <Image src={withPrefix(job.image)} />
                   <p style={{"font-style": "italic"}}>{job.tech}</p>

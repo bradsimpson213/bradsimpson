@@ -2,6 +2,7 @@ module.exports = {
   siteTitle: "Hi! I'm Brad Simpson!",
   siteDescription: `My personal website to show off resume and projects`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
+  googleAnalyticsId: 'UA-175194752-2',
   authorName: 'Brad Simpson',
   githubUsername: 'bradsimpson213',
   authorAvatar: 'https://brad-simpson-website.s3.amazonaws.com/myheadshot.jpg',
@@ -28,12 +29,12 @@ module.exports = {
     {
       name: 'HTML5',
       icon: 'HTML5',
-      level: 85,
+      level: 88,
     },
     {
       name: 'CSS3',
       icon: 'CSS3',
-      level: 80,
+      level: 86,
     },
     /* more skills here */
   ],
@@ -47,7 +48,7 @@ module.exports = {
       },
       duration: '6 months',
       occupation: 'Student, Software Engineer',
-      description: 'Sharpening my skills as a full stack software engineer.',
+      description: 'Sharpening my skills as a full stack software engineer.  App Academy is an immersive 1,000+ hour full-stack web development course with under a 3% acceptance rate',
     },
     {
       company: 'New Vistas Corporation',
@@ -57,8 +58,7 @@ module.exports = {
       },
       duration: '10 years',
       occupation: 'Regional Director of Construction, Asset Manger',
-      description:
-        'Directed a team of four construction professionals for various home improvement, rehab and maintenance projects in Northern New Jersey.  Also managed all operations of several properties, including maintenance, rent collection, bill paying, and financial reporting.',
+      description: 'Directed a team of 4 construction technicians for various home improvement, rehabilitation, and maintenance projects.  Oversaw a portfolio of 12 properties, including  residential and commercial l buildings. Became a trained HERS Rater, using a software set to determine home environmental efficiency with 1000’s of data inputs.  Utilized Yardi Property Management software to  control the financial reporting, rent collection and bill paying requirements',
     },
     {
       company: 'Palmeri Fund Administrators',
@@ -68,8 +68,7 @@ module.exports = {
       },
       duration: '5 years & 8 months',
       occupation: 'Accounting Supervisor, Client Relationship Manager',
-      description:
-        'Managed all accounting and administrative resources for multiple Private Equity Fund clients while supervising a team of five staff and senior level accounting professionals.',
+      description: 'Managed all accounting and administrative resources for 6 to 7 private equity fund clients.  Supervised a team of five staff and senior- level accounting professionals in all aspects of the financial reporting cycle.  Tested Equitrak accounting software, developed procedures manuals for the software, and trained all levels of employees.',
     },
     {
       company: 'Ernst & Young LLP',
@@ -79,8 +78,7 @@ module.exports = {
       },
       duration: '2 years & 9 months',
       occupation: 'Accounting Intern, Center for Mobility Services',
-      description:
-        'Reconcile and report on relocation expense accounts for the firm’s domestic employee transfers as well as facilitate payroll for expatriate employees.',
+      description: 'Reconcile and report on relocation expense accounts for the firm’s domestic employee transfers as well as facilitate payroll for expatriate employees.',
     },
     {
       company: 'Ramapo College of NJ',
@@ -90,26 +88,28 @@ module.exports = {
       },
       duration: '4 years',
       occupation: 'Bachelors of Science in Accounting',
-      description:
-        'I learned how to count, really well.  I also took several business courses in finance, marketing, economics, and management.',
+      description: 'I learned how to count, really well.  I also took several business courses in finance, marketing, economics, and management.',
     },
   ],
   portfolio: [
     {
       image: "https://ben.perlmutter.io/assets/img/star-trader-demo-full.gif",
-      description: "StarTrader - The best starship trading app in the whole galaxy!",
+      title: "StarTrader",
+      description: "The best starship trading app in the whole galaxy!",
       tech: "Created with Python / Flask Server and React Client",
       url: "https://startrader-app.herokuapp.com/"
     },
     {
       image: "https://brad-simpson-website.s3.amazonaws.com/Mello-video.gif",
-      description: "Mello - A Zen themed Kanban board inspired by Trello with drag and drop functionality!",
+      title: "Mello",
+      description: "A Zen themed Kanban board inspired by Trello with drag and drop functionality!",
       tech: "Created with Python / Flask Server, React Client (with Hooks), and React Beautiful DND",
       url: "https://mello-app1.herokuapp.com"
     },
     {
       image: 'https://brad-simpson-website.s3.amazonaws.com/Rockinhood.png',
-      description: "Rockinhood - A Stock / Portfolio Investing application inspired by RobinHood.",
+      title: 'RockinHood',
+      description: "A Stock / Portfolio Investing application inspired by RobinHood.",
       tech:  "Created with an Express Server and PUG Templating",
       url: 'https://rockinhood.herokuapp.com/',
     },
@@ -141,8 +141,7 @@ module.exports = {
     },
     {
       label: 'Resume',
-      url:
-        'https://docs.google.com/document/d/1SdwDGH71NDvTywBrMY0WY9kEAzaZxpl7PHQt_RXj3sg/export?format=pdf',
+      url: 'https://docs.google.com/document/d/1SdwDGH71NDvTywBrMY0WY9kEAzaZxpl7PHQt_RXj3sg/export?format=pdf',
     },
   ],
 }
