@@ -6,7 +6,7 @@ module.exports = {
   authorName: 'Brad Simpson',
   githubUsername: 'bradsimpson213',
   authorAvatar: 'https://brad-simpson-website.s3.amazonaws.com/myheadshot.jpg',
-  authorDescription: `I am a software engineer with previous careers in the financial and property management/construction industries. <br/>
+  authorDescription: `I am a software engineer with previous careers in the financial and property management/ construction industries. <br/>
   I have a passion for building, whether its a website, an app, or an addition on my house...  <br/> I take great pride in my work.
   I live in Hawthorne, NJ (30 minutes outside of NYC) and enjoy spending my free time working on DIY projects, gardening, hiking and camping with my family, or reading a good book in my hammock.`,
 
@@ -48,7 +48,7 @@ module.exports = {
       },
       duration: '6 months',
       occupation: 'Student, Software Engineer',
-      description: 'Sharpening my skills as a full stack software engineer.  App Academy is an immersive 1,000+ hour full-stack web development course with under a 3% acceptance rate',
+      description: '• Sharpening my skills as a full stack software engineer. <br/>• App Academy is an immersive 1,000+ hour full-stack web development course with under a 3% acceptance rate',
     },
     {
       company: 'New Vistas Corporation',
@@ -58,7 +58,7 @@ module.exports = {
       },
       duration: '10 years',
       occupation: 'Regional Director of Construction, Asset Manger',
-      description: 'Directed a team of 4 construction technicians for various home improvement, rehabilitation, and maintenance projects.  Oversaw a portfolio of 12 properties, including  residential and commercial l buildings. Became a trained HERS Rater, using a software set to determine home environmental efficiency with 1000’s of data inputs.  Utilized Yardi Property Management software to  control the financial reporting, rent collection and bill paying requirements',
+      description: '• Directed a team of 4 construction technicians for various home improvement, rehabilitation, and maintenance projects <br/>• Oversaw a portfolio of 12 properties, including  residential and commercial l buildings <br/>• Became a trained HERS Rater, using a software set to determine home environmental efficiency with 1000’s of data inputs <br/>• Utilized Yardi Property Management software to  control the financial reporting, rent collection and bill paying requirements',
     },
     {
       company: 'Palmeri Fund Administrators',
@@ -68,7 +68,7 @@ module.exports = {
       },
       duration: '5 years & 8 months',
       occupation: 'Accounting Supervisor, Client Relationship Manager',
-      description: 'Managed all accounting and administrative resources for 6 to 7 private equity fund clients.  Supervised a team of five staff and senior- level accounting professionals in all aspects of the financial reporting cycle.  Tested Equitrak accounting software, developed procedures manuals for the software, and trained all levels of employees.',
+      description: '• Managed all accounting and administrative resources for 6 to 7 private equity fund clients <br/>• Supervised a team of five staff and senior- level accounting professionals in all aspects of the financial reporting cycle <br/>• Tested Equitrak accounting software, developed procedures manuals for the software, and trained all levels of employees',
     },
     {
       company: 'Ernst & Young LLP',
