@@ -23,7 +23,7 @@ const Timeline = ({ className }) => (
                 ({job.duration || 'present'})
               </small>
             </h2>
-            <p>{job.description}</p>
+            { job.description.map( ele => (<p>{ele}</p>))}
           </div>
         </div>
       </article>
@@ -112,7 +112,7 @@ export default styled(Timeline)`
     transform: rotate(-45deg);
   }
   .timeline__item div.inner p {
-    padding: 15px;
+    padding: 5px 10px 5px 15px;
     margin: 0;
     font-size: 14px;
     background: ${({ theme }) => theme.colors.background};
