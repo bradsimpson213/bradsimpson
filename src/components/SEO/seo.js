@@ -36,7 +36,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 property: `og:image`,
-                content: `./public/images/siteimage.png`,
+                content: `assets/siteimage.png`,
               },
               {
                 name: `twitter:card`,
@@ -56,7 +56,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 name: `twitter:image`,
-                content: `./public/images/siteimage.png`,
+                content: `assets/siteimage.png`,
               },
             ]
               .concat(
