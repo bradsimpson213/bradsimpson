@@ -41,9 +41,9 @@ const Title = styled.p`
 				-1px -1px 0 #4169E1;
 `
 
-const Portfolio = ({ className, location }) => {
-  const title = "Portfolio Projects"
-  const { keywords, portfolio } = siteConfig
+const Instruction = ({ className, location }) => {
+  const title = "Instructional Content"
+  const { keywords, instructional } = siteConfig
   return (
     <Layout location={location}>
       <SEO title={title} keywords={keywords} />
@@ -53,7 +53,7 @@ const Portfolio = ({ className, location }) => {
       <Wrapper className={className}>
         <Container className="page-content" fluid>
           <Row>
-            {portfolio.map(job => (
+            { instructional.map(job => (
               <Col key={job.description} align="left">
                 <JobCard
                   as={job.url ? 'a' : 'div'}
@@ -66,7 +66,7 @@ const Portfolio = ({ className, location }) => {
                   <p style={{"font-style": "italic"}}>{job.tech}</p>
                 </JobCard>
               </Col>
-            ))}
+            )) }
           </Row>
         </Container>
       </Wrapper>
@@ -74,7 +74,7 @@ const Portfolio = ({ className, location }) => {
   )
 }
 
-export default styled(Portfolio)`
+export default styled(Instruction)`
   .page-content {
     max-width: 100%;
     margin-bottom: 40px;

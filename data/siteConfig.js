@@ -5,7 +5,7 @@ module.exports = {
   googleAnalyticsId: 'UA-175194752-2',
   authorName: 'Brad Simpson',
   githubUsername: 'bradsimpson213',
-  authorAvatar: 'https://brad-simpson-website.s3.amazonaws.com/myheadshot.jpg',
+  authorAvatar: 'https://res.cloudinary.com/app-academy4/image/upload/v1722262287/assets/IMG_7331_ykwt16.jpg',
   authorDescription: `I am a software engineer with previous careers in the financial and property management/ construction industries. <br/>
   I have a passion for building, whether its a website, an app, or an addition on my house... <br/> I take great pride in my work. <br/>
   I live in Hawthorne, NJ (30 minutes outside of NYC) and enjoy spending my free time working on DIY projects, gardening, hiking and camping with my family, or reading a good book in my hammock.`,
@@ -93,27 +93,43 @@ module.exports = {
   ],
   portfolio: [
     {
-      image: "https://ben.perlmutter.io/assets/img/star-trader-demo-full.gif",
+      image: "https://res.cloudinary.com/app-academy4/image/upload/v1635974577/dad-jokes/why-did-the-litigation-support-professional-cross-the-road-blog-joke-png-300_200_fbffgs.png",
+      title: "Dad Jokes",
+      description: "Who doesn't like a good Dad Joke? Well this site is loaded with them!!!",
+      tech: "Python / Flask Server & React Client",
+      url: "https://dad-jokes-apw7.onrender.com/"
+    },
+    {
+      image: "https://res.cloudinary.com/app-academy4/image/upload/v1722375151/assets/star-trader-preview_baa8h7.png",
       title: "StarTrader",
       description: "The best starship trading app in the whole galaxy!",
       tech: "Created with Python / Flask Server and React Client",
       url: "https://startrader-app.herokuapp.com/"
     },
-    {
-      image: "https://brad-simpson-website.s3.amazonaws.com/Mello-video.gif",
-      title: "Mello",
-      description: "A Zen themed Kanban board inspired by Trello with drag and drop functionality!",
-      tech: "Created with Python / Flask Server, React Client (with Hooks), and React Beautiful DND",
-      url: "https://mello-app1.herokuapp.com"
-    },
-    {
-      image: 'https://brad-simpson-website.s3.amazonaws.com/Rockinhood.png',
-      title: 'RockinHood',
-      description: "A Stock / Portfolio Investing application inspired by RobinHood.",
-      tech:  "Created with an Express Server and PUG Templating",
-      url: 'https://rockinhood.herokuapp.com/',
-    },
+    // {
+    //   image: "https://brad-simpson-website.s3.amazonaws.com/Mello-video.gif",
+    //   title: "Mello",
+    //   description: "A Zen themed Kanban board inspired by Trello with drag and drop functionality!",
+    //   tech: "Created with Python / Flask Server, React Client (with Hooks), and React Beautiful DND",
+    //   url: "https://mello-app1.herokuapp.com"
+    // },
+    // {
+    //   image: 'https://brad-simpson-website.s3.amazonaws.com/Rockinhood.png',
+    //   title: 'RockinHood',
+    //   description: "A Stock / Portfolio Investing application inspired by RobinHood.",
+    //   tech:  "Created with an Express Server and PUG Templating",
+    //   url: 'https://rockinhood.herokuapp.com/',
+    // },
     /* more portifolio items here */
+  ],
+  instructional: [
+    {
+      image: "https://res.cloudinary.com/app-academy4/image/upload/v1635974577/dad-jokes/why-did-the-litigation-support-professional-cross-the-road-blog-joke-png-300_200_fbffgs.png",
+      title: "YouTube - Python Programming Basics",
+      description: "Lectures on Basic Syntax in Python",
+      tech: "Python Programming Basics",
+      url: "https://studio.youtube.com/playlist/PLssTRb4Q2oDsQRBywJJxgfYvRZbaFZ8fI/edit"
+    },
   ],
   social: {
     angel: "https://angel.co/u/brad-simpson-8",
@@ -138,6 +154,10 @@ module.exports = {
     {
       label: 'Portfolio',
       url: '/portfolio',
+    },
+    {
+      label: 'Instruction',
+      url: '/instruction',
     },
     {
       label: 'Resume',
