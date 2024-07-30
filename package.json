@@ -15,7 +15,7 @@
     "gatsby-plugin-manifest": "2.4.11",
     "gatsby-plugin-offline": "3.2.9",
     "gatsby-plugin-react-helmet": "3.3.4",
-    "gatsby-plugin-sharp": "2.6.11",
+    "gatsby-plugin-sharp": "4.25.1",
     "gatsby-plugin-styled-components": "3.3.4",
     "gatsby-source-filesystem": "2.3.11",
     "gatsby-transformer-sharp": "2.5.5",
@@ -42,7 +42,7 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0",
+    "gh-pages": "^5.0.0",
     "prettier": "1.19.1"
   },
   "repository": {
